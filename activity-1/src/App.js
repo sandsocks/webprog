@@ -4,27 +4,29 @@ import Greeting from './Greeting';
 function App() {
   return (
    <div className="ProfileCard">
-  
-    <Greeting name=" Name: Maxi"/>
-    <Greeting Age="Age: 23" />
-    <Greeting job="Occupation: Student"/>
-    <Greeting color="Favorite Color: Yellow"/>
+    <style>
+
+    </style>
+    <Greeting name=" Name: Joshua Gabriel L. Flores"/>
+    <Greeting Age="Age: 21" />
+    <Greeting Description="About me:  Aspiring Game Developer"/>
+    <Greeting Location=" Location: Manila"/>
 
     <div className='ProfileCard2'>
-    <Greeting name=" Name: John"/>
-    <Greeting Age="Age: 22" />
-    <Greeting job="Occupation: Painter"/>
-    <Greeting color="Favorite Color: Blue"/>
+    <Greeting name=" Name: John Phoenix"/>
+    <Greeting Age="Age: 30" />
+    <Greeting Description="About me:  Aspiring Software Engineer"/>
+    <Greeting Location=" Location: Los Angeles"/>
 
     <div className='ProfileCard3'>
-    <Greeting name=" Name: Marie"/>
-    <Greeting Age="Age: 25" />
-    <Greeting job="Occupation: Teacher"/>
-    <Greeting color="Favorite Color: Green"/>
+    <Greeting name=" Name: Reyna Cruz"/>
+    <Greeting Age="Age: 30" />
+    <Greeting Description="About me:  Aspiring Web Designer"/>
+    <Greeting Location=" Location: San Francisco"/>
     </div>
     </div>
    </div>
-  )
+);
 }
 
 export default App;
